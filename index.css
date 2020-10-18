@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background: #0b8b8d;
+}
+
+.board-section {
+    padding-top: 80px;
+    height: 80vh;
+}
+
+h4 {
+    font-weight: bolder;
+    color: whitesmoke;
+}
+
+form>select {
+    width: 90%;
+    padding: 10px;
+    outline: none;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+}
+
+.add-button {
+    width: 90%;
+    height: 8vh;
+    color: white;
+    margin-top: 20px;
+    border: none;
+}
+
+.income-reader {
+    height: 8vh;
+    width: 90%;
+    color: white;
+    padding: 10px 0 0 20px;
+}
+
+.expense-reader {
+    height: 8vh;
+    width: 90%;
+    color: white;
+    padding: 10px 0 0 20px;
+}
+
+.cash-reader {
+    height: 8vh;
+    width: 90%;
+    color: white;
+    padding: 10px 0 0 20px;
+}
+
+.entry-section {
+    padding-top: 50px;
+    height: 15vh;
+}
+
+.detail-container {
+    height: 12vh;
+    border-bottom: 1px dotted blue;
+    background-color: ivory;
+    margin-bottom: 10px;
+}
+
+.my-amount,
+.comment,
+.my-description {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.shoes-div,
+.bags-div,
+.clothes-div,
+.phones-div {
+    margin-top: 50px;
+}
